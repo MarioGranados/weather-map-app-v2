@@ -1,13 +1,19 @@
 <section>
   <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold">Centered hero</h1>
+    <h1 class="display-5 fw-bold">WeatherMap App</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      <p class="lead mb-4">Search any address or click anywhere on the map to see what the weather-forecast in the area</p>
+      <div class="row justify-content-around align-items-center">
+        <div class="col-8">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        </div>
+        <div class="col-4">
+          <button type="button" class="btn btn-primary px-4">Search</button>
+        </div>
       </div>
     </div>
+  </div>
+  <div class="container">
+    <div id="map"></div>
   </div>
 </section>
